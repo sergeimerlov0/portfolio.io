@@ -16,4 +16,14 @@
             grid-row: 2/3 ;
         }
     }
+    &__item {
+        transition: all .8s;
+        img {
+            width: 100%;
+        }
+        &:hover {
+            transform: scale(1.05);
+            filter: grayscale(50%);
+        }
+    }
 }
